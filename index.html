@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gallery</title>
+  </head>
+  <body>
+    <header>
+      <h3 class="header__title">Welcome!</h3>
+      <h3 class="header__title2">Gallery</h3>
+      <button id="btn_add" class="header__btn_add">Add pic</button>
+      <button class="header__btn_remove"><a href="">Update</a></button>
+    </header>
+    <main>
+      <div class="container">
+        <div id="loader" class="loader">
+          <div class="loader-content">Loading...</div>
+        </div>
+        <div class="main__btn">
+          <button id="btn" class="btn__item">Upload pictures</button>
+        </div>
+        <div class="main__cards" id="cards"></div>
+      </div>
+
+      <script src="script.js"></script>
+    </main>
+  </body>
+</html>
